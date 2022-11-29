@@ -14,14 +14,14 @@ public class App {
     short numeroShort = 32767;
     int numeroInteiro = 214748364;
         
-    String s1=new String();
-    String s2=new String(texto_s);
-    String s3=new String(texto_c);
-    String s4=new String(texto_c,0,13);
+    String nameSinger=new String();
+    String nameActor=new String(texto_s);
+    String nameBand=new String(texto_c);
+    String nameMusic=new String(texto_c,0,13);
    
     System.out.println(texto_c);
     System.out.println(primeiroNome);  
-    System.out.println(s2);
+    System.out.println(nameActor);
     System.out.println(numeroPequeno);  
     System.out.println(numeroShort);
     System.out.println( numeroInteiro);
